@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
 	
     <title>Welcome to Facebook</title>
 </head>
 <body>
+   <div class="header">
      <div class="row">
 	  <div class="col-lg-6">
 	    <div class="input-group">
@@ -16,7 +18,7 @@
 	      <span class="input-group-addon">
 	        logo
 	      </span>
-	      <input type="text" class="form-control" aria-label="..." size="40" placeholder="Search Facebook">
+	      <input type="text" class="form-control" aria-label="..." size="40" height="8px" placeholder="Search Facebook">
 		<span class="input-group-addon">
 	        profile
 	      </span>
@@ -38,22 +40,12 @@
 	    </div><!-- /input-group -->
 	  </div><!-- /.col-lg-6 -->
      </div>
+
+   </div>
 	<div class="row">
-	   <div class="col-lg-4">
-	      <span class="input-group-addon">		
-		Hello	
-	      </span>
-	   </div>
-	   <div class="col-lg-4">
-		<span class="input-group-addon">
-		Hai
-	      <span>
-	   </div>
-	   <div class="col-lg-4">
-		<span class="input-group-addon">
-		Hoi
-	      <span>
-	   </div>		
+	  <div class="col-md-4">First column</div>   
+	  <div class="col-md-4">Second column</div>
+	  <div class="col-md-4">Third column</div>
 	</div>
 </body>
 </html>
