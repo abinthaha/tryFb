@@ -63,6 +63,32 @@ h1 {
   margin: .67em 0;
   font-size: 2em;
 }
+.btnsearch
+{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  height: 35px;
+}
+.font-color-default
+{
+  color: white;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.header
+{
+  background-color:#3B5998;
+  padding:5px;
+  height: 45px;
+  width: 100%;
+}
+#search
+{
+    height:34px;
+    font-size:12pt;
+}
 mark {
   color: #000;
   background: #ff0;
