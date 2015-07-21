@@ -1,10 +1,86 @@
-.header
+.logo
 {
-	background-color:#3B5998;
-	padding:9px;
+  text-align: right;
+}
+.otr_btn
+{
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  color: white;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #3B5998;
+  border-color: #3B5998;
+  height: 25px;
+}
+.verticalLine
+{
+  border-left: thick solid #ff0000;
+}
+.btnsearch
+{
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  height: 25px;
+}
+.font-color-default
+{
+  color: white;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: bold;
 }
 #search
 {
     height:15px;
     font-size:12pt;
+}
+.label_header
+{
+	border: 1px solid #000;
+	background-size: 25px;
+  	background-color: #3B5998;
+}
+.badge-header
+{
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: text-top;
+  background-color: red;
+  border-radius: 10px;
 }

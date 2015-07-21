@@ -63,12 +63,64 @@ h1 {
   margin: .67em 0;
   font-size: 2em;
 }
+.logo
+{
+  text-align: right;
+}
+.otr_btn
+{
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #3B5998;
+  border-color: #3B5998;
+  height: 25px;
+}
 .btnsearch
 {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
   color: #333;
   background-color: #fff;
   border-color: #ccc;
-  height: 35px;
+  height: 25px;
 }
 .font-color-default
 {
@@ -81,13 +133,13 @@ h1 {
 {
   background-color:#3B5998;
   padding:5px;
-  height: 45px;
+  height: 35px;
   width: 100%;
 }
 #search
 {
-    height:34px;
-    font-size:12pt;
+    height:25px;
+    font-size:10pt;
 }
 mark {
   color: #000;
@@ -3083,6 +3135,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
+  height: 25px;
   background-color: #fff;
   border-color: #ccc;
 }
