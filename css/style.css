@@ -181,7 +181,7 @@ li > font > a
 }
 li > font > a:hover
 {
-  font-size: 10px;
+  font-size: 12px;
 }
 li > ul > li
 {
@@ -189,7 +189,7 @@ li > ul > li
 }
 li > ul > li > a
 {
-  font-size: 8px;
+  font-size: 12px;
 }
 .new_btn
 {
@@ -399,8 +399,9 @@ margin-bottom: 5px;
 .btn-default
 { 
   height: auto;
-  display: inline-block;
-  padding: 6px 12px;
+  display: block;
+  padding: 5px 5px;
+  margin-top: -10px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -422,4 +423,62 @@ margin-bottom: 5px;
   height: 25px;
   background-color: #fff;
   border-color: #ccc;
+}
+.list-left
+{
+  position: relative;
+  display: block;
+  height: auto;
+  padding: 4px 30px;
+  margin-bottom: -1px;
+  background-color:#f4eaea;
+  border: 0px solid #ddd;
+}
+.list-left:hover
+{
+  display: block;
+  background-color: #f5f5f5;
+  text-decoration: none;
+}
+a.list-left:hover,
+button.list-left:hover,
+a.list-left:focus,
+button.list-left:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+button.list-group-item {
+  width: 100%;
+  text-align: left;
+}
+.status_footer
+{
+  display: none;
+}
+.parent
+{
+  display: auto;
+}
+.parent:hover .status_footer
+{
+  display: inline;
+}
+.more_hide
+{
+  display: none;
+}
+.online_badge
+{
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1;
+  height: 2px;
+  width: 2px;
+  color: green;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: green;
+  border-radius: 10px;
 }
