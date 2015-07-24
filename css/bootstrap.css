@@ -118,6 +118,7 @@ textarea {
   margin: 0;
   font: inherit;
   color: inherit;
+  border: none;
 }
 button {
   overflow: visible;
@@ -3130,6 +3131,7 @@ fieldset[disabled] .btn-default.active {
   font-family: Arial;
   font-weight: bold;
   color: white;
+
   background-color: #3B5998;
   border-color: #2e6da4;
 }
@@ -5008,6 +5010,7 @@ a.badge:focus {
 .nav-pills > .active > a > .badge {
   color: #337ab7;
   background-color: #fff;
+
 }
 .list-group-item > .badge {
   float: right;
