@@ -1,51 +1,1521 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="shortcut icon" href="image/fb_logo.png" type="image/x-icon" /> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
 	
-    <title>Welcome to Facebook</title>
+    <title>Facebook</title>
 </head>
 <body>
+<div style="background-color:#f4eaea">
    <div class="header">
      <div class="row">
-	  <div class="col-lg-6">
-	    <div class="input-group">
-		<span class="input-group-addon">
-	        </tab>
-	      </span>
-	      <span class="input-group-addon">
-	        logo
-	      </span>
-	      <input type="text" class="form-control" aria-label="..." size="40" height="8px" placeholder="Search Facebook">
-		<span class="input-group-addon">
-	        profile
-	      </span>
-		<span class="input-group-addon">
-	        home
-	      </span>
-		<span class="input-group-addon">
-	        requests
-	      </span>
-		<span class="input-group-addon">
-	        Messages
-	      </span>
-		<span class="input-group-addon">
-	        Notifications
-	      </span>
-		<span class="input-group-addon">
-	        Settings
-	      </span>
-	    </div><!-- /input-group -->
-	  </div><!-- /.col-lg-6 -->
-     </div>
+     	<div class=".col-xs-1 hidden-lg hidden-md hidden-sm">
+     		<div class="btn-group" style="float:left">
+			    <span class="dropdown-toggle" type="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="margin-top:5px; margin-left:25px;">
+    						
+    					</span>
+    				</a>
+  				</span>
+			  	</button>
+			  	<ul class="dropdown-menu">
+			    	<li class="list-group-item"><a href="#">Profile</a></li>
+				    <li class="list-group-item"><a href="#">Home</a></li>
+				    <li class="list-group-item"><a href="#">Friend Requests</a></li>
+				    <li class="list-group-item"><a href="#">Messages</a></li>
+				    <li class="list-group-item"><a href="#">Notification</a></li>
+			  	</ul>
+			</div>
+		</div>
+     	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 font-color-default logo">
+     		<span>
+     			<input type="image" src="image/fb_logo.jpg" height="25px" width="35px">
+     		</span>
+     	</div>
+     	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-9">
+		   	<div class="input-group">
+		   		<input id="search" type="text" class="form-control" size="40" placeholder="Search Facebook">
+		   		<span class="input-group-btn">
+		   			<button class="btnsearch" type="button"><img src="image/search_btn.png" width="20px" height="20px"></button>
+		   		</span>
+		   	</div><!-- /input-group -->
+		</div><!-- /.col-lg-4 -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 font-color-default container-fluid hidden-xs">
+			
+     		<span>
+     			<a href="">
+     				<img src="image/prof_pic.jpg" height="20" width="20">
+     				<span class="label box-content right">Abin</span>     				
+     			</a>
+     			</span>
+     		<span>
+     		<a href="">
+     			<span class="label rightspan"><font color="#0c5381">| &nbsp; </font>&nbsp; Home</span>
 
+     			</span>
+     			<div class="visible-xs">
+					<button class="btn btn-default" style="height:10px; width:10px color:white">
+						
+					</button>
+				</div>
+     		</a>
+     		
+     		&nbsp;
+     		<div class="dropdown drop hidden-xs">
+				<span class="dropdown-toggle" type="" id="dropdownMenuFReq" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-user" aria-hidden="true">
+    						
+    					</span>
+    				</a>
+  				</span>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenuFReq">
+  					<li style="height:15px;">
+  						<font size="2.5px" face="Arial" align="left" color=" #333333">
+  							Friend requests
+  						</font> 
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+								&nbsp;
+  						<font font size="2px" face="Arial" align="right" color="blue" style="margin-left:100px">
+  							<a href="" style="">
+  								Find Friends.
+  							</a>
+  							<a href="">
+  								Settings
+  							</a>
+  						</font>
+  					</li> 
+					<li role="separator" class="divider" style="width:400px"></li>
+					<li class="list-group-item"><a href="#">No new Friend requests</a></li> 
+					<li role="separator" class="divider"></li>
+					<li style="height:10px"><font size="2.5px" face="Arial" align="left" color=" #333333">New Friends</font></li> 
+					<li role="separator" class="divider"></li>
+					<li class="list-group-item"><a href="#"><img src="image/1.jpg" width="20px" height="20px">
+						Syam Pillai, Sravan S and Eldhose K Shibu are you friends</a></li> 
+					<li role="separator" class="divider"></li>
+					<li style="height:10px"><font size="2.5px" face="Arial" align="left" color=" #333333">Peoples you may know</font></li> 
+					<li role="separator" class="divider"></li>
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+  				</ul>
+			</div>   			
+     		&nbsp;
+     		<div class="dropdown drop hidden-xs">
+				<span class="dropdown-toggle" type="" id="dropdownMenuMessage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-comment" aria-hidden="true">
+    						
+    					</span>
+    				</a>
+  				</span>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
+					<li style="width:400px">
+						<ul class="nav nav-tabs">
+							<li class="active" style="margin-left:30px">
+								<a href="">Inbox</a>
+							</li>
+							<li>
+								<a href="">Other</a>
+							</li>
+							<li>
+								<font color="blue" text-align="right" face="Times New Roman" size="1" style="margin-left:90px">								
+									<a href="">
+										Mark all as Read.
+									</a>
+									<a href="">
+										Send a new Message
+									</a>							
+								</font>
+							</li>
+
+						</ul>
+					</li>
+					<br/>
+					<li role="separator" class="divider"></li>	
+					<li><a href="#"> No new Messages </a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+				</ul>
+			</div>
+			&nbsp;
+			
+     		<div class="dropdown drop hidden-xs">
+				<span class="dropdown-toggle" type="" id="dropdownMenuNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-globe" aria-hidden="true">
+    						
+    					</span>
+    				</a>
+  				</span>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenuNotification">
+					<li style="width:400px">
+						<font color="blue" align="right" face="Times New Roman" size="1" style="margin-left:200px">								
+							<a href="">
+								Mark all as Read.
+							</a>
+							<a href="">
+								Send a new Message
+							</a>							
+						</font>							
+					</li>
+					<li class="list-group-item"><a href="#"> No Notifications </a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+					<li><a href="#"></a></li> 
+  				</ul>
+			</div>
+     		&nbsp;
+     		&nbsp;
+     		<font color="#0c5381">|</font>
+     		&nbsp;
+     		&nbsp;
+
+			<div class="dropdown drop1 hidden-xs">
+				<span class="dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-lock" aria-hidden="true">
+    						
+    					</span>
+    				</a>
+  				</span>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  				<font size="3px" face="Times New Roman" color="black">
+  					<li class="active list-group-item">
+						<span type="button" class="new_btn">
+							<span class="glyphicons glyphicons-folder-heart"></span>
+							Privacy Checkup
+						</span>
+					</li> 
+					<li class="list-group-item">
+						<span class="new_btn" type="button">
+							Who can see my Stuff
+						</span>
+					</li> 
+					<li class="list-group-item">
+						<span class="new_btn" type="button">
+							Who can Contact me
+						</span>
+					</li> 
+					<li class="list-group-item">
+						<span class="new_btn" type="button">
+							How do I stop someone from Bothering me
+						</span>
+					</li> 
+  				</font>
+					
+  				</ul>
+			</div>
+			&nbsp;
+			<div class="dropdown drop hidden-xs">
+				<span class="dropdown-toggle" type="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				<a href="">	
+    					<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true">
+    						
+    					</span>
+    				</a>
+  				</span>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<li class="list-group-item"><a href="#">Create Group</a></li> 
+					<li class="list-group-item"><a href="#">New Groups</a></li> 
+					<li class="list-group-item"><a href="#">Create Page</a></li> 
+					<li class="list-group-item"><a href="#">Manage Page</a></li> 
+					<li class="list-group-item"><a href="#">Create Add</a></li> 
+					<li class="list-group-item"><a href="#">Advertising on Facebook</a></li> 
+					<li class="list-group-item"><a href="#">Activity Log</a></li> 
+					<li class="list-group-item"><a href="#">News feed Preferences</a></li> 
+					<li class="list-group-item"><a href="#">Settings</a></li> 
+					<li class="list-group-item"><a href="#">Logout</a></li> 
+					<li class="list-group-item"><a href="#">Help</a></li> 
+					<li class="list-group-item"><a href="#">Support Inbox</a></li>
+					<li class="list-group-item"><a href="#">Report Problem</a></li> 
+  				</ul>
+			</div>
+     	</div>
+   </div>
    </div>
 	<div class="row">
-	  <div class="col-md-4">First column</div>   
-	  <div class="col-md-4">Second column</div>
-	  <div class="col-md-4">Third column</div>
-	</div>
+	  	<div class="col-xs-2 hidden-xs hidden-sm" style="background-color:#f4eaea ">
+	  		<ul class="" style="margin-right: -30px">
+	  			<li class="">
+	  				&nbsp;
+		  		</li>
+	  			<li class="list-left list-group-item">
+				<img src="image/prof_pic.jpg" class="img-rounded" height="20px" width="20px">&nbsp;
+    	  			<a href="">
+    	  				<span class="link">
+    	  					Abin Thaha
+    	  				</span>
+    	  			</a> 	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<img src="image/edit.png" height="20px" width="20px">&nbsp;
+	  					<a href="">
+	  						<span class="link">
+	  							Edit Profile
+	  						</span>
+	  					</a>		
+	  			</li>
+	  			<li role="separator" class="divider list-left list-group-item">
+	  				
+	  			</li>
+	  			<li>
+	  			</li>
+	  			<li class="list-left list-group-item">
+    	 			<p class="disabledletter" >
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						FAVORITES
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<img src="image/newsfeed.png" height="20px" width="20px">&nbsp;
+	  				<a href="">
+	  					<span class="news">
+	  						<b>News Feed</b>
+	  					</span>
+	  				</a>		
+	  				<span class="dropdown dropnews">
+	  					<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						<a href=""> 
+    							<span class="glyphicon glyphicon-triangle-bottom dropnews" aria-hidden="true">
+    								
+    							</span> 
+    						</a>&nbsp;
+  						</span>
+  						<ul class="dropdown-menu hover" aria-labelledby="dropdownMenu1">
+						    <li>
+						    	<a href="#">
+						    		<b>
+						    			<span class="glyphicon glyphicon-ok" aria-hidden="true">
+						    			
+						    			</span> Top Stories
+						    		</b>
+						    	</a>
+						    </li>
+							<li>
+								<a href="#">
+									<center>Most Recent</center>
+								</a>
+							</li>
+						</ul>
+					</span><br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/message.png" height="20px" width="20px">&nbsp;
+	  						<span style="color:black; width:250px;">Messages</span>
+	  					</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<img src="image/cal.png" height="20px" width="20px">&nbsp;
+	  					<a href="">
+	  						<span style="color:black; width:180px;">Events
+	  							<span class="badge_left" style="text-align:right">
+	  								3
+	  							</span>
+	  						</span>
+	  					</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="" class="bookmark">
+	  					<span class="glyphicon glyphicon-bookmark" aria-hidden="true">
+	  							
+	  					</span> 
+	  				</a>&nbsp;&nbsp;
+	  				<a href="">
+	  					<span style="color:black">Saved
+	  						<span class="badge_left" style="text-align:right">
+	  							4
+	  						</span>
+	  					</span>
+	  				</a>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/photos.png" width="20px" height="20px">
+	  					<span style="color:black">
+	  						Photos
+	  					</span>
+	  				</a>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						PAGES
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/flag.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Pages Feed
+	  						<span class="badge_left" style="text-align:right">
+	  							20+
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/like.jpg" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Like pages
+	  						<span class="badge_left" style="text-align:right">
+	  							20+
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/new_page.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Create page
+	  						<span class="badge_left" style="text-align:right">
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  				<li class="list-left list-group-item">
+	  					<a href="">
+	  					<img src="image/signal.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Create Ad
+	  						<span class="badge_left" style="text-align:right">
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  				</li>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						<div style="float:left" >
+    	 							APPS
+    	 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+    	 						</div>    	 						
+    	 						<div class="">
+    	 							MORE
+    	 						</div>
+    	 					</font>
+    	 				</b>
+    	 			</p>
+    	 			<ul style="margin-left: -71px; margin-right: -36px;" class="">
+    	 				<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/brick_games.png" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">Games
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+		  			<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/On_this_day.png" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">On This Day
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+		  			<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/fv2.png" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">Farmville 2
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+		  			<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/vl.png" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">Village Life
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+		  			<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/fv.jpg" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">Farmville
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+		  			<li class="list-left list-group-item">
+		  				<a href="">
+		  					<img src="image/games.png" height="20px" width="20px">&nbsp;
+		  					<span style="color:black">Games Feed
+		  						<span class="badge_left" style="text-align:right">
+		  							20+
+		  						</span>
+		  					</span>
+		  				</a>
+		  				<br>
+		  			</li>
+    	 			</ul>	
+	  			</li>
+	  			
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						GROUPS
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/group.jpg" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">IT Hackerz
+	  						<span class="badge_left" style="text-align:right">
+	  							
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/group.jpg" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">GECI
+	  						<span class="badge_left" style="text-align:right">
+	  							20+
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/group.jpg" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">A2
+	  						<span class="badge_left" style="text-align:right">
+	  							20+
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/group.jpg" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">GECI 2011-2015
+	  						<span class="badge_left" style="text-align:right">
+	  							
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						FRIENDS
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/cl_fr.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Close Friends
+	  						<span class="badge_left" style="text-align:right">
+	  							
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/home.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Family
+	  						<span class="badge_left" style="text-align:right">
+	  							20+
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						INTERESTS
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/pages.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Pages
+	  						<span class="badge_left" style="text-align:right">
+	  							
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<p class="disabledletter">
+    	 				<b>
+    	 					<font face="Arial" size="1.8px" color="#8b8888">
+    	 						EVENTS
+    	 					</font>
+    	 				</b>
+    	 			</p>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/cal.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Fb autoliker
+	  						<span class="badge_left" style="text-align:right">
+	  							
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  			<li class="list-left list-group-item">
+	  				<a href="">
+	  					<img src="image/create_event.png" height="20px" width="20px">&nbsp;
+	  					<span style="color:black">Create Events
+	  						<span class="badge_left" style="text-align:right">
+	  						</span>
+	  					</span>
+	  				</a>
+	  				<br>
+	  			</li>
+	  		</ul>   
+    	</div>
+	  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="background-color:#f4eaea">
+	  	<section class="fb-post parent">
+	  		<header class=""container-fluid post-content>
+		  		<font size="2px" face="Arial">
+		  			<a class="btn_new hidden-xs">
+		  				<img src="image/upd_status.png" width="20px" height="20px">
+		  				Update Status
+		  			</a>
+					<a class="btn_new hidden-xs"> 
+						<img src="image/add_photo.png" width="20px" height="20px">
+						Add Photos/Videos
+					</a>
+					<a class="btn_new hidden-xs"> 
+						<img src="image/create_album.png" width="20px" height="20px">
+						Create Photo Album
+					</a>
+		  		</font>
+	  		<section>
+				<textarea class="form-control" rows="3" placeholder="What's on your mind?">
+					
+				</textarea>
+			</section>
+			<footer class="container-fluid footer-item">
+				<div class="row parent">
+				    <div class="col-md-7">
+						<div class="status_footer">
+							<button class="btn">
+								<span class="glyphicon glyphicon-camera"></span>
+							</button>
+							<button class="btn">
+							 	<img src="image/add_user.png" width="20px" height="20px">
+							 </button>
+							 <button class="btn">
+							 	<img src="image/happy_smiley.png" width="20px" height="20px">
+							 </button>
+							 <button class="btn">
+							 	<img src="image/add_location.png" width="20px" height="20px">
+							 </button>
+						</div>
+					</div>
+					<div class="col-md-5 ">
+						<div class="btn-group" style="padding-top: 9px; ">
+							<button type="button" class="btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="height:32px" >
+							    Public 
+							    <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+							    <li class="list-group-item"><section>
+							    	<a href="#">
+							    		<font size="3px" style="bold" face="Arial">
+							    			Public
+							    		</font>
+							    		<br/>
+							    		<font size="2px" style="normal">
+							    			Anyone on or off facebook
+							    		</font>
+							    	</a>
+							    </section>
+							    </li>
+
+							    <li class="list-group-item">
+							    	<a href="#">
+							    		<font size="3px" style="bold" face="Arial">
+							    			Friends
+							    		</font>
+							    		<br/>
+							    		<font size="2px" style="normal">
+							    			Your friend on Facebook
+							    		</font>
+							    	</a>
+							    </li>
+							  </ul>
+						</div>
+						<button type="button" class="btn btn-primary">
+							Post
+						</button>
+					</div>
+				</div>
+			</footer>
+	  	</section>
+	  	<article class="fb-post">
+	  		<header class=""container-fluid>	  			
+	  			<div class="col-md-10">
+	  				<div class="row">
+	  					<div class="col-md-2">
+	  						<img src="image/amitabh.jpg" width="40px" height="40px">
+	  					</div>
+	  					<div class="col-md-8">
+	  						<div class="row">
+
+	  							<a href="" class="links"><b>Amitabh Bachan</b>  posted a photo in Twitter</a>
+	  						</div>
+	  						<div class="row">
+	  							<a href="" class="grey-text">3hrs</a>
+	  							<a href="" class="grey-text">
+	  								<span class="glyphicon glyphicon-globe"></span>
+	  							</a>
+	  						</div>
+	  					</div>	  					
+	  				</div>	  				
+	  			</div>
+	  			<div class="col-md-1 dropdown">
+	  				<button class="btn" data-toggle="dropdown">
+	  					<span class="glyphicon glyphicon-menu-down">
+	  						
+	  					</span>	  					
+	  				</button>	
+	  				<ul class="dropdown-menu">
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-download-alt">
+										
+							</span>
+							<a href="#">Save</a>
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-trash">
+							</span>
+								<a href="#">Delete</a>
+						</li >
+					</ul>  				
+	  			</div>
+	  		</header>
+	  		<section class="post-content">
+	  			<img src="image/amitabh.jpg" width="100%"><br/>
+				<h3>
+					T 1940 - Another medical campaign done today .. more details in time .. 
+				</h3>
+			</section>
+			<section class="container-fluid ">
+				<a class="grey-text" href="" style="color:grey;">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like
+				</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="grey-text" href="" style="color:grey;">
+				<span class="glyphicon glyphicon-list" >
+						
+				</span>Comment</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="grey-text" href="" style="color:grey;">
+					<span class="glyphicon glyphicon-share"></span>
+						Share
+				</a>
+			</section>
+		</article>
+		<article class="fb-post">
+	  		<header class=""container-fluid>	  			
+	  			<div class="col-md-10">
+	  				<div class="row">
+	  					<div class="col-md-2">
+	  						<img src="image/icu.jpg" width="100%">
+	  					</div>
+	  					<div class="col-md-8">
+	  						<div class="row">
+	  							<a href="" class="links">
+	  								<b>International Chalu Union (ICU)
+	  								</b>
+	  								Updated a photo
+	  							</a>
+	  						</div>
+	  						<div class="row">
+	  							<a href="" class="grey-text">3hrs</a>
+	  							<a href="" class="grey-text">
+	  								<span class="glyphicon glyphicon-globe"></span>
+	  							</a>
+	  						</div>
+	  					</div>	  					
+	  				</div>	  				
+	  			</div>
+	  			<div class="col-md-1 dropdown">
+	  				<button class="btn" data-toggle="dropdown">
+	  					<span class="glyphicon glyphicon-menu-down">
+	  						
+	  					</span>	  					
+	  				</button>	
+	  				<ul class="dropdown-menu">
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-download-alt">
+										
+							</span>
+							<a href="#">Save</a>
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-trash">
+							</span>
+								<a href="#">Delete</a>
+						</li>
+					</ul>  				
+	  			</div>
+	  		</header>
+	  		<section class="post-content">
+	  			<img src="image/post1.jpg" width="100%" height="350px" ><br/>
+				
+			</section>
+			<section class="container-fluid ">
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like
+				</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+				<span class="glyphicon glyphicon-list">
+						
+				</span>Comment</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-share"></span>
+						Share
+				</a>
+			</section>
+		</article>
+		<article class="fb-post">
+	  		<header class=""container-fluid>	  			
+	  			<div class="col-md-10">
+	  				<div class="row">
+	  					<div class="col-md-2">
+	  						<img src="image/icu.jpg" width="100%">
+	  					</div>
+	  					<div class="col-md-8">
+	  						<div class="row">
+	  							<a href="" class="links">
+	  								<b>International Chalu Union (ICU)
+	  								</b>
+	  								Added a photo
+	  							</a>
+	  						</div>
+	  						<div class="row">
+	  							<a href="" class="grey-text">3hrs</a>
+	  							<a href="" class="grey-text">
+	  								<span class="glyphicon glyphicon-globe"></span>
+	  							</a>
+	  						</div>
+	  					</div>	  					
+	  				</div>	  				
+	  			</div>
+	  			<div class="col-md-1 dropdown">
+	  				<button class="btn" data-toggle="dropdown">
+	  					<span class="glyphicon glyphicon-menu-down">
+	  						
+	  					</span>	  					
+	  				</button>	
+	  				<ul class="dropdown-menu">
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-download-alt">
+										
+							</span>
+							<a href="#">Save</a>
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-trash">
+							</span>
+								<a href="#">Delete</a>
+						</li>
+					</ul>  				
+	  			</div>
+	  		</header>
+	  		<section class="post-content">
+	  			<img src="image/post2.jpg" width="100%"  ><br/>
+				
+			</section>
+			<section class="container-fluid ">
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like
+				</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+				<span class="glyphicon glyphicon-list">
+						
+				</span>Comment</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-share"></span>
+						Share
+				</a>
+			</section>
+		</article>
+	  	<article class="fb-post">
+	  		<header class=""container-fluid>	  			
+	  			<div class="col-md-10">
+	  				<div class="row">
+	  					<div class="col-md-2">
+	  						<img src="image/syam.jpg" width="40px" height="40px">
+	  					</div>
+	  					<div class="col-md-8">
+	  						<div class="row">
+
+	  							<a href="" class="links"><b>Syam S Pillai</b></a>
+	  						</div>
+	  						<div class="row">
+	  							<a href="" class="grey-text">3hrs</a>
+	  							<a href="" class="grey-text">
+	  								<span class="glyphicon glyphicon-globe"></span>
+	  							</a>
+	  						</div>
+	  					</div>	  					
+	  				</div>	  				
+	  			</div>
+	  			<div class="col-md-1 dropdown">
+	  				<button class="btn" data-toggle="dropdown">
+	  					<span class="glyphicon glyphicon-menu-down">
+	  						
+	  					</span>	  					
+	  				</button>	
+	  				<ul class="dropdown-menu">
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-download-alt">
+										
+							</span>
+							<a href="#">Save</a>
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-trash">
+							</span>
+								<a href="#">Delete</a>
+						</li >
+					</ul>  				
+	  			</div>
+	  		</header>
+	  		<section class="post-content">
+	  			<img src="image/steph.jpg" width="100%" ><br/>
+				<p>
+				Stephen Hawking clarified this week that he was an atheist because science had provided him with a “more convincing” explanation of the origins of the universe.<br/>According to NBC News, Hawking made the comments to the Spanish-language 	paper El Mundo during the Starmus Festival at Tenerife in the Canary Islands.
+				</p>
+			</section>
+			<section class="container-fluid ">
+				<a class="grey-text" href="" style="color:grey;">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like
+				</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="grey-text" href="" style="color:grey;">
+				<span class="glyphicon glyphicon-list" >
+						
+				</span>Comment</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="grey-text" href="" style="color:grey;">
+					<span class="glyphicon glyphicon-share"></span>
+						Share
+				</a>
+			</section>
+		</article>
+		<article class="fb-post">
+	  		<header class=""container-fluid>	  			
+	  			<div class="col-md-10">
+	  				<div class="row">
+	  					<div class="col-md-2">
+	  						<img src="image/jaya.jpg" width="100%">
+	  					</div>
+	  					<div class="col-md-8">
+	  						<div class="row">
+	  							<a href="" class="links">
+	  								<b>Jayasurya
+	  								</b>
+	  								Changed his Profile picture
+	  							</a>
+	  						</div>
+	  						<div class="row">
+	  							<a href="" class="grey-text">3hrs</a>
+	  							<a href="" class="grey-text">
+	  								<span class="glyphicon glyphicon-globe"></span>
+	  							</a>
+	  						</div>
+	  					</div>	  					
+	  				</div>	  				
+	  			</div>
+	  			<div class="col-md-1 dropdown">
+	  				<button class="btn" data-toggle="dropdown">
+	  					<span class="glyphicon glyphicon-menu-down">
+	  						
+	  					</span>	  					
+	  				</button>	
+	  				<ul class="dropdown-menu">
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-download-alt">
+										
+							</span>
+							<a href="#">Save</a>
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-trash">
+							</span>
+								<a href="#">Delete</a>
+						</li>
+					</ul>  				
+	  			</div>
+	  		</header>
+	  		<section class="post-content">
+	  			<img src="image/jaya.jpg" width="475px" height="350px" ><br/>
+				
+			</section>
+			<section class="container-fluid ">
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like
+				</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+				<span class="glyphicon glyphicon-list">
+						
+				</span>Comment</a>&nbsp;&nbsp;&nbsp;
+				<a class="grey-text">
+					<span class="glyphicon glyphicon-share"></span>
+						Share
+				</a>
+			</section>
+		</article>
+	  </div>
+	  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hidden-xs" style="background-color:#f4eaea">
+	  	<ul>
+	  		<li>
+	  			&nbsp;
+	  		</li>
+	  		<li>
+	  			<div style="background-color:white" >
+	  				<a href="">
+	  					<img src="image/fv2.png" width="20px" height="20px">
+	  					<b>
+	  						3 requests from Asim Thaha Azeez
+	  					</b>
+	  				</a>
+	  			</div>
+	  		</li>
+	  		<li>
+	  			<div style="background-color:white">
+	  				<img src="image/cal.png" width="20px" height="20px">
+	  				<a href="">
+	  					<b>
+	  					 	1 Invite Today
+	  					</b>
+	  				</a>
+	  			</div>
+	  		</li>
+	  		<li>
+	  			<div style="background-color:white">
+	  				<img src="image/bday.png" width="20px" height="20px">
+	  				<a href="">
+	  					<b>Ashifa K Ali</b> 
+	  				</a>
+	  					and 
+	  				<a href="">
+	  					<b>5 Others</b>
+	  				</a>
+	  			</div>
+	  		</li>
+	  		<li role="separator" class="divider">
+	  			&nbsp;	
+  			</li>
+	  		<li role="separator" class="divider">
+	  				
+  			</li>
+  			<li>
+  				<div style="background-color:white">
+  					<p class="disabledletter">
+	    	 			<b>
+	    	 				<font face="Arial" size="1.9px" color="#8b8888">
+	    	 					TRENDING
+	    	 				</font>
+	    	 			</b>
+	    	 			&nbsp;&nbsp;
+	    	 			<a href="">
+	    	 				<img src="image/trend.png" width="20px" height="20px">	
+	    	 			</a>
+	    	 			&nbsp;
+	    	 			<a href="">
+	    	 				<img src="image/politics.jpg" width="20px" height="20px">	
+	    	 			</a>&nbsp;
+	    	 			<a href="">
+	    	 				<img src="image/science.png" width="20px" height="20px">	
+	    	 			</a>&nbsp;
+	    	 			<a href="">
+	    	 				<img src="image/sports.jpg" width="20px" height="20px">	
+	    	 			</a>&nbsp;
+	    	 			<a href="">
+	    	 				<img src="image/entertain.png" width="20px" height="20px">	
+	    	 			</a>
+	    	 		</p>
+  				</div>
+  			</li>
+  			<li role="separator" class="divider">
+	  			&nbsp;	
+  			</li>
+	  		<li role="separator" class="divider">
+	  				
+  			</li>
+  			<li>
+  				<div class="col-md-2" style="background-color:white">
+  					<img src="image/arrow.png" width="40px" height="50px">
+  				</div>
+  				<div class="col-md-10" style="background-color:white">
+  					<a href="">
+  						<b>
+  							Indian Ocean
+  						</b>
+  					</a>
+  					Japan Reportedly set to take part in Joint Naval Exercise with India and the US
+  				</div>
+  			</li>
+  			<li>
+  				<div class="col-md-2" style="background-color:white">
+  					<img src="image/arrow.png" width="40px" height="50px">
+  				</div>
+  				<div class="col-md-10" style="background-color:white">
+  					<a href="">
+  						<b>
+  							Christian Beneteke
+  						</b>
+  					</a>Aston villa striker Completes his transfer to Liverpool
+  				</div>
+  			</li>
+  			<li role="separator" class="divider">
+	  			&nbsp;	
+  			</li>
+	  		<li role="separator" class="divider">
+	  				
+  			</li>
+  			<li>
+  			<li>
+  				<div style="background-color:white">
+  					<p class="disabledletter">
+	    	 			<b>
+	    	 				<font face="Arial" size="1.9px" color="#8b8888">
+	    	 					SUGGESTED PAGES
+	    	 				</font>
+	    	 			</b>
+	    	 		</p>
+	    	 	</div>
+	    	 </li>
+	    	 <li>
+	    	 	<div style="background-color:white">
+		  			<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				SOCIAL UPDATES
+			    			</font>
+			    		</b>
+			    	</p>
+			    </div>						
+	    	 </li>
+	    	 <li>
+	    	 	<div style="background-color:white">
+		  			<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				PEOPLES YOU MAY KNOW
+			    			</font>
+			    		</b>
+			    	</p>
+			    </div>	
+			    <div class="list-group-item">
+			    	<div class="row">
+			    		<div class=".col-md-2">
+			    			<img src="image/lavya.jpg" width="70px" height="70px" style="float:left">
+			    		</div>
+			    		<div class=".col-md-6">
+			    			<ul>
+			    				<li>&nbsp;
+			    					<a href=""><b><strong>Lavya</strong></b>
+			    						<br/>
+			    						<font color="grey">
+			    							&nbsp;3 Mutual Friends
+			    						</font>			    						
+			    					</a><br/>&nbsp;&nbsp;
+			    					<button class="btn btn-default">
+			    						Add Friend
+			    					</button>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    		
+			    	</div>
+			    </div>	
+			    <div class="list-group-item">
+			    	<div class="row">
+			    		<div class=".col-md-2">
+			    			<img src="image/sravan.jpg" width="70px" height="70px" style="float:left">
+			    		</div>
+			    		<div class=".col-md-6">
+			    			<ul>
+			    				<li>&nbsp;
+			    					<a href=""><b><strong>Sravan Sukumaran</strong></b>
+			    						<br/>
+			    						<font color="grey">
+			    							&nbsp;Syam is a Mutual Friend
+			    						</font>			    						
+			    					</a><br/>&nbsp;&nbsp;
+			    					<button class="btn btn-default">
+			    						Add Friend
+			    					</button>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    		
+			    	</div>
+			    </div>	
+			    <div class="list-group-item">
+			    	<div class="row">
+			    		<div class=".col-md-2">
+			    			<img src="image/aswin.jpg" width="70px" height="70px" style="float:left">
+			    		</div>
+			    		<div class=".col-md-6">
+			    			<ul>
+			    				<li>&nbsp;
+			    					<a href=""><b><strong>Aswin</strong></b>
+			    						<br/>
+			    						<font color="grey">
+			    							&nbsp;4 Mutual Friends
+			    						</font>			    						
+			    					</a><br/>&nbsp;&nbsp;
+			    					<button class="btn btn-default">
+			    						Add Friend
+			    					</button>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    		
+			    	</div>
+			    </div>					
+	    	 </li>
+	    	 <li>
+	    	 	<div style="background-color:white">
+		  			<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				SUGGESTED GROUPS
+			    			</font>
+			    		</b>
+			    	</p>
+			    </div>
+
+	    	 </li>
+	    	 	<div>
+	    	 		<div class="col-ls-4">
+
+	    	 			
+	    	 		</div>
+	    	 	</div>
+	    	 <li>
+	    	 	<div style="background-color:white">
+		  			<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				SPONSORED
+			    			</font>
+			    		</b>
+			    	</p>
+			    </div>
+
+	    	 </li>
+	    	 <li >
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad1.png" width="100px" height="100px">
+	    	 	</div>
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad2.jpg" width="100px" height="100px">
+	    	 	</div>
+	    	 </li>
+	    	 <li>
+	    	 	&nbsp;
+	    	 </li>
+	    	  <li>
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad3.gif" width="100px" height="100px">
+	    	 	</div>
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad4.jpg" width="100px" height="100px">
+	    	 	</div>
+	    	 </li>
+	    	 <li>
+	    	 	&nbsp;
+	    	 </li>
+	    	  <li>
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad5.jpg" width="100px" height="100px">
+	    	 	</div>
+	    	 	<div class="col-md-6">
+	    	 		<img src="image/ad6.jpeg" width="100px" height="100px">
+	    	 	</div>
+	    	 </li>
+	   	</ul> 		
+	  	</div>
+	  	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs" >
+	  		<ul>
+	  			<li>
+	  				&nbsp;
+	  			</li>
+	  			<li>
+	  				<p class="disabledletter" style="background-color:white">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				YOUR GAMES &nbsp;&nbsp;&nbsp;&nbsp;MORE
+			    			</font>
+			    		</b>
+			    	</p>
+	  			</li>
+	  			<li>
+	  				<div class="col-md-6">
+				    	<img src="image/fv2.png" width="60px" height="60px">
+				    </div>
+				    <div class="col-md-6">
+				    	<img src="image/fv.jpg" width="60px" height="60px">
+			   		</div>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+  				</li>
+  				<li>
+	  				&nbsp;
+	  			</li>
+	  			<li>
+	  				<p class="disabledletter" style="background-color:white">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				SUGGESTED GAMES &nbsp;&nbsp;&nbsp;&nbsp;MORE
+			    			</font>
+			    		</b>
+			    	</p>
+	  			</li>
+	  			<li>
+	  				<div class="col-md-6">
+				    	<img src="image/vl.png" width="60px" height="60px">
+				    </div>
+				    <div class="col-md-6">
+				    	<img src="image/brick_games.png" width="60px" height="60px">
+			   		</div>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+  				</li>
+	  		</ul>
+	  		<br/>
+	  		<br/>
+	  		<ul>
+	  			<li>
+	  				<p class="disabledletter" style="background-color:white">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				ONLINE FRIENDS &nbsp;&nbsp;&nbsp;&nbsp;
+			    			</font>
+			    		</b>
+			    	</p>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="image/p1.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href=""> Aswathy G Nair	&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	  							
+	  						
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>				
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="image/syam.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href="">
+	  							Syam S Pillai	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  							</a>
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>	
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="image/p2.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href="">
+	  							Abeena Mol Azeez
+	  						</a>
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p3.jpg" width="20px" height="20px">
+	  						Asim Thaha
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p4.jpg" width="20px" height="20px">
+	  						Shabana
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p5.JPG" width="20px" height="20px">
+	  						Arathy Aravind
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p6.jpg" width="20px" height="20px">
+	  						Anju
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p7.jpg" width="20px" height="20px">
+	  						Ashik Abbas
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p8.jpg" width="20px" height="20px">
+	  						Aditya KS
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p9.jpg" width="20px" height="20px">
+	  						Jincy
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p10.jpg" width="20px" height="20px">
+	  						Bindu
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p12.jpg" width="20px" height="20px">
+	  						Shreya
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="image/p13.jpg" width="20px" height="20px">
+	  						Seena Jamal
+	  				</div>
+	  			</li>
+	  		</ul>
+	  		 <footer class="grey-text">
+				<div class="row">
+				<a href="#">English (US) </a>·
+				<a href="#">Privacy </a>·
+				<a href="#">Terms </a>·
+				<a href="#">Cookies </a>·
+				</div>
+				<div class="row">
+					<h6>
+						<span class="glyphicon glyphicon-copyright-mark"></span>Abin Thaha
+					</h6>
+				</div>
+			</footer>
+		</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	   
+	        <script src="js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>
